@@ -1,7 +1,7 @@
 # watchlist
 Write a watch list app for keeping track of SpaceX rocket launches the user is interested in.
 
-#Instructions
+# Instructions
 
 ## Download
 Clone the repo using ``git clone https://github.com/ZereL/watchlist.git``
