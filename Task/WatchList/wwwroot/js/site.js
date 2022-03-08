@@ -67,7 +67,7 @@
 						alert(data.errorMessage);
 					} else {
 						// if success, redirect
-						document.location.href="/";
+						// document.location.href="/";
 					}
 				},
 			  });

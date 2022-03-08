@@ -22,6 +22,12 @@ public class HomeController : Controller
 		return View(rocketList);
 	}
 
+	public IActionResult WatchList()
+	{
+		IEnumerable<Rocket> rocketList = _ApplicationContext.Rockets;
+		return Ok(rocketList);
+	}
+
     // Home/LaunchList
 	public IActionResult LaunchList()
 	{
